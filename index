@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sufurus - Comida Enlatada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+        <a class="navbar-brand text-primary" href="#">
+            <img src="img/logo-negro.png" alt="Sufurus" class="logo-img"> Sufurus
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="#sobre-nosotros">Sobre nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="hero">
+    <div class="hero-container">
+        <img src="img/img-portada.jpg" alt="Comida enlatada" class="hero-image">
+        <div class="hero-text">
+            <h1>Bienvenido a Sufurus</h1>
+            <p>La mejor comida enlatada para ti.</p>
+            <a href="#productos" class="btn btn-warning">Nuestros productos</a>
+        </div>
+    </div>
+</section>
+
+    
+
+
+    <header class="text-center text-white bg-primary p-5">
+        <h1>Bienvenido a Sufurus</h1>
+        <p>A continuación puedes ver nuestros productos, actualmente en crecimiento</p>
+    </header>
+
+    <div section id="productos" class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/gallo-pinto.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Gallo Pinto</h5>
+                    <p class="card-text">El sabor y la costumbre que nos caracteriza.</p>
+                    <a href="#" class="btn btn-primary">Detalles del producto</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/ensalada-frutas.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Ensalada de frutas</h5>
+                    <p class="card-text">Una explosión mixta de frutas.</p>
+                    <a href="#" class="btn btn-primary">Detalles del producto</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/picadillo-papa-carne.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Picadillo de papa con carne</h5>
+                    <p class="card-text">Nuestros clásicos y deliciosos picadillos de papa con carne.</p>
+                    <a href="#" class="btn btn-primary">Detalles del producto</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="img/arroz-pollo.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Arroz con pollo</h5>
+                    <p class="card-text">Lleva la fiesta a todos lados.</p>
+                    <a href="#" class="btn btn-primary">Detalles del producto</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <div class="card">
+                <img src="img/picadillo-papa-chorizo.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Delicias enlatadas</h5>
+                    <p class="card-text">La mejor calidad y sabor en cada lata.</p>
+                    <a href="#" class="btn btn-primary">Detalles del producto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="sobre-nosotros" class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="img/sobre-nosotros.jpg" class="img-fluid rounded" alt="Sobre Nosotros">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2 class="text-primary">Sobre Nosotros</h2>
+                <p class="text-dark">
+                    En <strong>Sufurus</strong>, nos especializamos en ofrecer comida enlatada de la más alta calidad, 
+                    preservando el sabor y la frescura en cada producto. Nuestra misión es llevar practicidad y nutrición 
+                    a cada hogar, asegurando que disfrutes de una experiencia culinaria deliciosa y confiable.
+                </p>
+                <p class="text-dark">
+                    Con un compromiso firme hacia la excelencia, seleccionamos cuidadosamente los ingredientes y 
+                    utilizamos procesos de producción de última tecnología para garantizar que cada lata conserve su 
+                    sabor original y su valor nutricional.
+                </p>
+                <a href="conoce-mas.html" class="btn btn-warning">Conoce Más</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer class="text-center bg-dark text-white p-3 mt-5">
+        <p>&copy; 2025 Sufurus - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
